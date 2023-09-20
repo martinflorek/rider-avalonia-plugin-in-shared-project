@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaTest", "AvaloniaTest\AvaloniaTest.csproj", "{8467A954-FBCD-4C08-AACA-1E9DA204F8DD}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaTest", "AvaloniaTest\AvaloniaTest.csproj", "{8467A954-FBCD-4C08-AACA-1E9DA204F8DD}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject", "SharedProject\SharedProject.shproj", "{6DDB167B-8A74-4BE8-A965-93FAA9CF2B72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,15 @@ Global
 		{8467A954-FBCD-4C08-AACA-1E9DA204F8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8467A954-FBCD-4C08-AACA-1E9DA204F8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8467A954-FBCD-4C08-AACA-1E9DA204F8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {116D1629-D582-44A0-A526-ED130906B837}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject\SharedProject.projitems*{6ddb167b-8a74-4be8-a965-93faa9cf2b72}*SharedItemsImports = 13
+		SharedProject\SharedProject.projitems*{8467a954-fbcd-4c08-aaca-1e9da204f8dd}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
