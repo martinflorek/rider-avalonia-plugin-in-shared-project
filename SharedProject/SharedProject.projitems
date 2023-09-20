@@ -9,7 +9,7 @@
     <Import_RootNamespace>SharedProject</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)Window1.axaml" />
+    <AvaloniaXAML Include="$(MSBuildThisFileDirectory)Window1.axaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Window1.axaml.cs" />
